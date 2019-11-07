@@ -108,7 +108,7 @@
 	}
 
 	h1 {
-		padding: 20px 45px 20px 10px;
+		padding: 15px 45px 15px 10px;
 		background-image: url('./background.png');
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -125,6 +125,7 @@
 	.customer__name {
 		padding: 10px 15px;
 		cursor: pointer;
+		font-size: 16px;
 	}
 
 	.users {
