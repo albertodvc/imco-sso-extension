@@ -1,7 +1,7 @@
 <template>
 	<body>
 
-		<form novalidate class="md-layout">
+		<form novalidate class="md-layout" v-on:submit.prevent="onSubmit">
 			<md-card class="form md-layout-item md-size-50 md-small-size-100">
 				<md-card-header>
 					<div class="md-title">Settings</div>
@@ -39,10 +39,20 @@
 				domain: '',
 			}
 		},
+		created() {
+			chrome.storage.local.get('domain', (result) => {
+				if (result.domain) {
+					this.domain = result.domain;
+				}
+			});
+		},
 		watch: {
 			domain(domain) {
 				chrome.storage.local.set({ domain });
 			},
+		},
+		methods: {
+			onSubmit() {}
 		},
 	}
 </script>

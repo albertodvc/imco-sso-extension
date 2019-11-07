@@ -1,6 +1,6 @@
 {
   "name": "imco-sso",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "An extension to login into IMCO with an API generated SSO token",
   "scripts": {
     "build": "node utils/build.js",
