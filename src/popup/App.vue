@@ -98,6 +98,7 @@
 		margin: 0;
 		color: #585858;
 		font-family: "Roboto", Helvetica, Arial, sans-serif;
+		font-size: 14px;
 	}
 
 	h1,
