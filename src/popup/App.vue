@@ -108,7 +108,7 @@
 	}
 
 	h1 {
-		padding: 15px 45px 15px 10px;
+		padding: 15px 45px 15px 15px;
 		background-image: url('./background.png');
 		background-size: cover;
 		background-repeat: no-repeat;
