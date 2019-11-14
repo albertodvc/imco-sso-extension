@@ -59,6 +59,6 @@
 
 <style>
 	.form {
-		margin: 40px auto 0;
+		margin: 0 auto;
 	}
 </style>

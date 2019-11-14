@@ -1,6 +1,8 @@
 {
   "name": "IMCO Login",
-	"options_page": "options.html",
+	"options_ui": {
+    "page": "options.html"
+  },
 	"permissions": [
 		"storage",
 		"https://*.imco.io/"
